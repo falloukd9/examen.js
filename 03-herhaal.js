@@ -1,8 +1,6 @@
 function herhaal() {
-    var herhaal2 = ['herhaal','<br> herhaal','<br> herhaal','<br> herhaal',
-       '<br> herhaal','<br> herhaal'];
-   
-       for ( var i = 0; i < herhaal2.length; i++) {
-           document.write(herhaal2[i] + ' ' + i );
+    
+       for ( var i = 1; i < 7; i++) {
+           document.write('herhaal ' + i + '<br>');
        }
    }
