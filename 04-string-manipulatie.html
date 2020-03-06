@@ -11,8 +11,22 @@
         var achternaam = 'keita'
         var derde = voornaam + ' ' + achternaam;
         document.write('hallo ' + derde + '.');
+        
         var lengte = derde.length;
         document.write('<br> Jouw naam bevat ' + lengte + ' karakters');
+
+        var filename = 'javaScriptFrameWork'
+        document.write('<br>De originele filenaam is: ' + filename);
+        document.write('<br>De filenaam kan beter in kleine letters getypt worden, dus: ' + 
+        filename.toLowerCase());
+        var filename2 = 'javascriptframework';
+        document.write('<br>Als je javascriptframework opsplitst, krijg je: ' +
+        filename2.split(9));
+
+        document.write('<br> Het zesde karakter (volgens mensen) in ' + 
+        filename2 + ' is: ' + filename2.charAt(5));
+
+
     </script>
 </body>
 </html>
